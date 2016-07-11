@@ -6,8 +6,14 @@
       "title": "XSLT stylesheet",
       "type" : "string",
       "x-schema-form": {
-        "type": "textarea",
-        "placeholder": "Place your XSLT stylesheet here"
+        "type": "codemirror",
+        "codemirrorOptions": {
+          "value": "Place your XSLT stylesheet here",
+  		    "lineWrapping": true,
+  		    "lineNumbers": true,
+  		    "allowDropFileTypes": true,
+  		    "mode": "xml"
+		    }	
       }
     },
     "parameters" : {
